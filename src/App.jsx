@@ -3,11 +3,11 @@ import Layout from './components/Layout';
 import { useDukieStore } from './hooks/useDukieStore';
 import { useTmdbCatalog } from './hooks/useTmdbCatalog';
 import { useAuth } from './hooks/useAuth';
-import Auth from './pages/Auth';
-import Catalog from './pages/Catalog';
-import Dashboard from './pages/Dashboard';
-import SeriesDetails from './pages/SeriesDetails';
-import Stats from './pages/Stats';
+import Auth from './views/Auth';
+import Catalog from './views/Catalog';
+import Dashboard from './views/Dashboard';
+import SeriesDetails from './views/SeriesDetails';
+import Stats from './views/Stats';
 
 export default function App() {
   const auth = useAuth();
