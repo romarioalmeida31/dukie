@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vinext dev",
-    "build": "vite build && node scripts/prepare-sites-build.mjs",
+    "build": "vite build --config vite.spa.config.js && node scripts/build-spa-worker.mjs",
     "preview": "vinext start"
   },
   "dependencies": {
